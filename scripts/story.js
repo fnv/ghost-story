@@ -36,114 +36,117 @@ const story = [
     }
 ];
 
-// DOM Elements
-const storyContent = document.querySelector('.story-content');
-const prevButton = document.getElementById('prev-page');
-const nextButton = document.getElementById('next-page');
-const pageIndicator = document.getElementById('page-indicator');
-const themeToggle = document.querySelector('.theme-toggle');
+// Initialize the story when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    // DOM Elements
+    const storyContent = document.querySelector('.story-content');
+    const prevButton = document.getElementById('prev-page');
+    const nextButton = document.getElementById('next-page');
+    const pageIndicator = document.getElementById('page-indicator');
+    const themeToggle = document.querySelector('.theme-toggle');
 
-// Current page state
-let currentPage = 0;
+    // Current page state
+    let currentPage = 0;
 
-// Theme state
-let isDarkMode = localStorage.getItem('darkMode') === 'true';
+    // Theme state
+    let isDarkMode = localStorage.getItem('darkMode') === 'true';
 
-// Initialize the story
-function initStory() {
-    // Load saved page from localStorage if available
-    const savedPage = localStorage.getItem('currentPage');
-    if (savedPage !== null) {
-        currentPage = parseInt(savedPage);
-    }
-    
-    // Check URL hash for direct page access
-    const hash = window.location.hash;
-    if (hash) {
-        const pageId = hash.substring(1); // Remove the # symbol
-        const pageIndex = story.findIndex(page => page.id === pageId);
-        if (pageIndex !== -1) {
-            currentPage = pageIndex;
+    // Initialize the story
+    function initStory() {
+        // Load saved page from localStorage if available
+        const savedPage = localStorage.getItem('currentPage');
+        if (savedPage !== null) {
+            currentPage = parseInt(savedPage);
         }
-    }
-    
-    // Initialize theme
-    updateTheme();
-    
-    updatePage();
-    updateNavigation();
-}
-
-// Update the current page content
-function updatePage() {
-    const page = story[currentPage];
-    storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${page.content}</div>`;
-    pageIndicator.textContent = `Page ${currentPage + 1} of ${story.length}`;
-    
-    // Update URL hash with the page's GUID
-    window.location.hash = page.id;
-    
-    // Save current page to localStorage
-    localStorage.setItem('currentPage', currentPage);
-}
-
-// Update navigation buttons state
-function updateNavigation() {
-    prevButton.disabled = currentPage === 0;
-    nextButton.disabled = currentPage === story.length - 1;
-}
-
-// Theme handling
-function updateTheme() {
-    document.body.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
-    themeToggle.textContent = isDarkMode ? '☀️' : '🌙';
-    localStorage.setItem('darkMode', isDarkMode);
-}
-
-// Event Listeners
-prevButton.addEventListener('click', () => {
-    if (currentPage > 0) {
-        currentPage--;
+        
+        // Check URL hash for direct page access
+        const hash = window.location.hash;
+        if (hash) {
+            const pageId = hash.substring(1); // Remove the # symbol
+            const pageIndex = story.findIndex(page => page.id === pageId);
+            if (pageIndex !== -1) {
+                currentPage = pageIndex;
+            }
+        }
+        
+        // Initialize theme
+        updateTheme();
+        
         updatePage();
         updateNavigation();
     }
-});
 
-nextButton.addEventListener('click', () => {
-    if (currentPage < story.length - 1) {
-        currentPage++;
-        updatePage();
-        updateNavigation();
+    // Update the current page content
+    function updatePage() {
+        const page = story[currentPage];
+        storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${page.content}</div>`;
+        pageIndicator.textContent = `Page ${currentPage + 1} of ${story.length}`;
+        
+        // Update URL hash with the page's GUID
+        window.location.hash = page.id;
+        
+        // Save current page to localStorage
+        localStorage.setItem('currentPage', currentPage);
     }
-});
 
-themeToggle.addEventListener('click', () => {
-    isDarkMode = !isDarkMode;
-    updateTheme();
-});
-
-// Keyboard navigation
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') {
-        prevButton.click();
-    } else if (e.key === 'ArrowRight') {
-        nextButton.click();
+    // Update navigation buttons state
+    function updateNavigation() {
+        prevButton.disabled = currentPage === 0;
+        nextButton.disabled = currentPage === story.length - 1;
     }
-});
 
-// Handle URL hash changes
-window.addEventListener('hashchange', () => {
-    const hash = window.location.hash;
-    if (hash) {
-        const pageId = hash.substring(1); // Remove the # symbol
-        const pageIndex = story.findIndex(page => page.id === pageId);
-        if (pageIndex !== -1 && pageIndex !== currentPage) {
-            currentPage = pageIndex;
+    // Theme handling
+    function updateTheme() {
+        document.body.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+        themeToggle.textContent = isDarkMode ? '☀️' : '🌙';
+        localStorage.setItem('darkMode', isDarkMode);
+    }
+
+    // Event Listeners
+    prevButton.addEventListener('click', () => {
+        if (currentPage > 0) {
+            currentPage--;
             updatePage();
             updateNavigation();
         }
-    }
-});
+    });
 
-// Initialize the story when the page loads
-document.addEventListener('DOMContentLoaded', initStory); 
+    nextButton.addEventListener('click', () => {
+        if (currentPage < story.length - 1) {
+            currentPage++;
+            updatePage();
+            updateNavigation();
+        }
+    });
+
+    themeToggle.addEventListener('click', () => {
+        isDarkMode = !isDarkMode;
+        updateTheme();
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') {
+            prevButton.click();
+        } else if (e.key === 'ArrowRight') {
+            nextButton.click();
+        }
+    });
+
+    // Handle URL hash changes
+    window.addEventListener('hashchange', () => {
+        const hash = window.location.hash;
+        if (hash) {
+            const pageId = hash.substring(1); // Remove the # symbol
+            const pageIndex = story.findIndex(page => page.id === pageId);
+            if (pageIndex !== -1 && pageIndex !== currentPage) {
+                currentPage = pageIndex;
+                updatePage();
+                updateNavigation();
+            }
+        }
+    });
+
+    // Initialize the story
+    initStory();
+}); 
