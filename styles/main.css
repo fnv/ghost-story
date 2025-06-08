@@ -141,10 +141,6 @@ button:disabled {
         margin: 1rem auto;
     }
     
-    .story-content {
-        min-height: 300px;
-    }
-    
     button {
         padding: 0.4rem 0.8rem;
     }
