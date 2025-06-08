@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Story</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    <button class="toc-toggle" aria-label="Toggle table of contents">📑</button>
+    
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul id="toc-list">
+            <!-- Table of contents will be dynamically populated -->
+        </ul>
+    </div>
+
+    <div class="story-container">
+        <div class="story-content">
+            <!-- Story pages will be dynamically inserted here -->
+        </div>
+        
+        <div class="navigation">
+            <button id="prev-page" aria-label="Previous page">←</button>
+            <span id="page-indicator">Page 1</span>
+            <button id="next-page" aria-label="Next page">→</button>
+        </div>
+    </div>
+    
+    <script src="scripts/story.js"></script>
+</body>
+</html> 
