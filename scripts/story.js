@@ -51,6 +51,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Theme state
     let isDarkMode = localStorage.getItem('darkMode') === 'true';
 
+    // Touch state
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const minSwipeDistance = 50; // Minimum distance for a swipe to be registered
+
     // Initialize the story
     function initStory() {
         // Load saved page from localStorage if available
@@ -102,6 +107,33 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('darkMode', isDarkMode);
     }
 
+    // Touch event handlers
+    function handleTouchStart(e) {
+        touchStartX = e.touches[0].clientX;
+    }
+
+    function handleTouchMove(e) {
+        touchEndX = e.touches[0].clientX;
+    }
+
+    function handleTouchEnd() {
+        const swipeDistance = touchEndX - touchStartX;
+        
+        if (Math.abs(swipeDistance) >= minSwipeDistance) {
+            if (swipeDistance > 0 && currentPage > 0) {
+                // Swipe right - go to previous page
+                currentPage--;
+                updatePage();
+                updateNavigation();
+            } else if (swipeDistance < 0 && currentPage < story.length - 1) {
+                // Swipe left - go to next page
+                currentPage++;
+                updatePage();
+                updateNavigation();
+            }
+        }
+    }
+
     // Event Listeners
     prevButton.addEventListener('click', () => {
         if (currentPage > 0) {
@@ -123,6 +155,11 @@ document.addEventListener('DOMContentLoaded', () => {
         isDarkMode = !isDarkMode;
         updateTheme();
     });
+
+    // Touch event listeners
+    storyContent.addEventListener('touchstart', handleTouchStart, { passive: true });
+    storyContent.addEventListener('touchmove', handleTouchMove, { passive: true });
+    storyContent.addEventListener('touchend', handleTouchEnd);
 
     // Keyboard navigation
     document.addEventListener('keydown', (e) => {
