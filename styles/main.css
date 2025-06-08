@@ -133,39 +133,6 @@ button:disabled {
     background: var(--button-hover);
 }
 
-/* Table of contents */
-.toc {
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    background: var(--container-bg);
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px var(--shadow-color);
-    max-width: 250px;
-    max-height: 80vh;
-    overflow-y: auto;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
-}
-
-.toc.visible {
-    transform: translateX(0);
-}
-
-.toc-toggle {
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    background: var(--button-bg);
-    color: white;
-    border: none;
-    padding: 0.5rem;
-    border-radius: 4px;
-    cursor: pointer;
-    z-index: 100;
-}
-
 /* Responsive design */
 @media (max-width: 600px) {
     .story-container {
@@ -180,10 +147,5 @@ button:disabled {
     
     button {
         padding: 0.4rem 0.8rem;
-    }
-    
-    .toc {
-        width: 80%;
-        max-width: none;
     }
 } 
