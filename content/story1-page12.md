@@ -1,0 +1,3 @@
+There had been so many boxes. My grandmother had kept her house clean and organized, every item in its perfect place, so I had been surprised to find them. She'd called it the spare spare room, and come to think of it, she'd never had enough company that she would have had to use it. That day, I'd found it floor to ceiling with boxes.
+
+I remembered having to sit down, then as now. It had all been too much. I thought I'd understood the scope of the project at hand, going through my late grandmother's possessions. But this unexpected and absolutely out-of-character room meant hours, or, honestly, days of additional work. Time I'd be away from my family, time I'd be alone with a dead woman's things. 

@@ -1,0 +1,5 @@
+The robin continued chirping, though he was nowhere to be seen. A few steps past the archway I heard the fluttering of wings, and then silence settled over the garden again.
+
+It was eerie to travel through a garden shrouded in fog. The careful design of the landscape was shrouded, obscuring the intentions of the gardener. But while the house had felt stiff and a bit menacing, the garden was simply melancholy.
+
+A wide path with grass on either side led forward to a small pool. The pool was very low, filled more with damp leaves and dirt than water, and the fountain at its center was dry. I took a turn about the fountain, and passed three identical paths before ending up where I'd begun. The fog made each branching path seem identical — an infinite series of opportunities or, rather, a bleak acknowledgement that whatever path I took was exactly the same. 

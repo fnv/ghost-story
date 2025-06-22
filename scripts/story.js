@@ -18,75 +18,495 @@ const stories = [
         },
         {
             id: generateGuid(),
-            title: "The Manor",
+            title: "The Weather",
             contentFile: "content/story0-page2.md"
         },
         {
             id: generateGuid(),
-            title: "The Path",
+            title: "The Intrusion",
             contentFile: "content/story0-page3.md"
         },
         {
             id: generateGuid(),
-            title: "The Garden",
+            title: "The Facade",
             contentFile: "content/story0-page4.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Map",
+            contentFile: "content/story0-page5.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Path",
+            contentFile: "content/story0-page6.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Corner",
+            contentFile: "content/story0-page7.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Garden",
+            contentFile: "content/story0-page8.md"
         }
     ],
     
-    // Story 1: The Library Path
+    // Story 1: The Library Path (15 pages)
     [
         {
             id: generateGuid(),
-            title: "The Library",
+            title: "The Arrival",
             contentFile: "content/story1-page1.md"
         },
         {
             id: generateGuid(),
-            title: "The Book",
+            title: "The Engine",
             contentFile: "content/story1-page2.md"
         },
         {
             id: generateGuid(),
-            title: "The Revelation",
+            title: "The Silence",
             contentFile: "content/story1-page3.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Walkway",
+            contentFile: "content/story1-page4.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Robin",
+            contentFile: "content/story1-page5.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Song",
+            contentFile: "content/story1-page6.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Path",
+            contentFile: "content/story1-page7.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Balcony",
+            contentFile: "content/story1-page8.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Descent",
+            contentFile: "content/story1-page9.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Archway",
+            contentFile: "content/story1-page10.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Pool",
+            contentFile: "content/story1-page11.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Bench",
+            contentFile: "content/story1-page12.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Boxes",
+            contentFile: "content/story1-page13.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Ashes",
+            contentFile: "content/story1-page14.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Bridge",
+            contentFile: "content/story1-page15.md"
         }
     ],
     
-    // Story 2: The Staircase Path
+    // Story 2: The Staircase Path (27 pages)
     [
         {
             id: generateGuid(),
-            title: "The Stairs",
+            title: "The Arrival",
             contentFile: "content/story2-page1.md"
         },
         {
             id: generateGuid(),
-            title: "The Landing",
+            title: "The Engine",
             contentFile: "content/story2-page2.md"
         },
         {
             id: generateGuid(),
-            title: "The Mirror",
+            title: "The Silence",
             contentFile: "content/story2-page3.md"
-        }
-    ],
-    
-    // Story 3: The Corridor Path
-    [
-        {
-            id: generateGuid(),
-            title: "The Corridor",
-            contentFile: "content/story3-page1.md"
         },
         {
             id: generateGuid(),
-            title: "The Garden",
-            contentFile: "content/story3-page2.md"
+            title: "The Walkway",
+            contentFile: "content/story2-page4.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Envelope",
+            contentFile: "content/story2-page5.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Note",
+            contentFile: "content/story2-page6.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Mystery",
+            contentFile: "content/story2-page7.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Robin",
+            contentFile: "content/story2-page8.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Memory",
+            contentFile: "content/story2-page9.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Path",
+            contentFile: "content/story2-page10.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Balcony",
+            contentFile: "content/story2-page11.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Descent",
+            contentFile: "content/story2-page12.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Archway",
+            contentFile: "content/story2-page13.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Pool",
+            contentFile: "content/story2-page14.md"
         },
         {
             id: generateGuid(),
             title: "The Fountain",
+            contentFile: "content/story2-page15.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Bench",
+            contentFile: "content/story2-page16.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Boxes",
+            contentFile: "content/story2-page17.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Ashes",
+            contentFile: "content/story2-page18.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Rose Garden",
+            contentFile: "content/story2-page19.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Wall",
+            contentFile: "content/story2-page20.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Stream",
+            contentFile: "content/story2-page21.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Memory",
+            contentFile: "content/story2-page22.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Dinner",
+            contentFile: "content/story2-page23.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Advice",
+            contentFile: "content/story2-page24.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Bridge",
+            contentFile: "content/story2-page25.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Fog",
+            contentFile: "content/story2-page26.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The End",
+            contentFile: "content/story2-page27.md"
+        }
+    ],
+    
+    // Story 3: The Corridor Path (47 pages)
+    [
+        {
+            id: generateGuid(),
+            title: "The Arrival",
+            contentFile: "content/story3-page1.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Engine",
+            contentFile: "content/story3-page2.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Door",
             contentFile: "content/story3-page3.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Driver",
+            contentFile: "content/story3-page4.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Journey",
+            contentFile: "content/story3-page5.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Walkway",
+            contentFile: "content/story3-page6.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Manor",
+            contentFile: "content/story3-page7.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Envelope",
+            contentFile: "content/story3-page8.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Note",
+            contentFile: "content/story3-page9.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Mystery",
+            contentFile: "content/story3-page10.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Robin",
+            contentFile: "content/story3-page11.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Decision",
+            contentFile: "content/story3-page12.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Memory",
+            contentFile: "content/story3-page13.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Path",
+            contentFile: "content/story3-page14.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Balcony",
+            contentFile: "content/story3-page15.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Descent",
+            contentFile: "content/story3-page16.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Archway",
+            contentFile: "content/story3-page17.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Pool",
+            contentFile: "content/story3-page18.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Fountain",
+            contentFile: "content/story3-page19.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Bench",
+            contentFile: "content/story3-page20.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Memory",
+            contentFile: "content/story3-page21.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Boxes",
+            contentFile: "content/story3-page22.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Past",
+            contentFile: "content/story3-page23.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Ashes",
+            contentFile: "content/story3-page24.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Rose Garden",
+            contentFile: "content/story3-page25.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Wall",
+            contentFile: "content/story3-page26.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Stream",
+            contentFile: "content/story3-page27.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Memory",
+            contentFile: "content/story3-page28.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Dinner",
+            contentFile: "content/story3-page29.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Advice",
+            contentFile: "content/story3-page30.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The House",
+            contentFile: "content/story3-page31.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Mind",
+            contentFile: "content/story3-page32.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Bridge",
+            contentFile: "content/story3-page33.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Fog",
+            contentFile: "content/story3-page34.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Wuthering",
+            contentFile: "content/story3-page35.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Maze",
+            contentFile: "content/story3-page36.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Map",
+            contentFile: "content/story3-page37.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Request",
+            contentFile: "content/story3-page38.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Secret",
+            contentFile: "content/story3-page39.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Escape",
+            contentFile: "content/story3-page40.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Navigation",
+            contentFile: "content/story3-page41.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Door",
+            contentFile: "content/story3-page42.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Lock",
+            contentFile: "content/story3-page43.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Despair",
+            contentFile: "content/story3-page44.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Break",
+            contentFile: "content/story3-page45.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Garden",
+            contentFile: "content/story3-page46.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Secret Garden",
+            contentFile: "content/story3-page47.md"
         }
     ],
     
@@ -131,9 +551,9 @@ const stories = [
 
 // Branching logic: when you reach the end of a story, which story and page do you go to next?
 const storyBranches = [
-    { storyIndex: 1, pageIndex: 1 }, // Story 0 ends -> go to Story 1, page 1
-    { storyIndex: 2, pageIndex: 1 }, // Story 1 ends -> go to Story 2, page 1
-    { storyIndex: 3, pageIndex: 1 }, // Story 2 ends -> go to Story 3, page 1
+    { storyIndex: 1, pageIndex: 9 }, // Story 0 ends -> go to Story 1, page 1
+    { storyIndex: 2, pageIndex: 17 }, // Story 1 ends -> go to Story 2, page 1
+    { storyIndex: 3, pageIndex: 34 }, // Story 2 ends -> go to Story 3, page 1
     { storyIndex: 4, pageIndex: 1 }, // Story 3 ends -> go to Story 4, page 1
     { storyIndex: 5, pageIndex: 1 }, // Story 4 ends -> go to Story 5, page 1
     null  // Story 5 ends -> this is the end, no more branching

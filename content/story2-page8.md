@@ -1,0 +1,3 @@
+The sudden noise was enough of a surprise that it stalled my train of thought and, after a moment, lowered my hackles. I could breathe again, be sensible. Many thanks to you, Mister Robin. I put the card back in the envelope, and left it under the knocker.
+
+But where had the robin's singing come from? The song sparked a memory. I was sitting with Grandma Robin on the porch swing, hearing her singing to the robins in the trees. She always said they didn't know the right songs, these American robins. She would point to herself and say that a European Robin would show them how to sing properly. 

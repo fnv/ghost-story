@@ -1,0 +1,3 @@
+The door shut and I was left in the cold, damp fog, clutching a small envelope. The driver hadn't mentioned anything about knowing anyone who lived here. Worked here? I was half tempted to go inside, but first I looked inside the envelope. I found a small piece of card, with a scrawled note.
+
+Tha'll find the path through the gardens marred, but to set thysen right: turn left at the fountain, and take the stone bridge out of the rose garden. Or come inside, and a body will show you the way. 

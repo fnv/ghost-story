@@ -1,0 +1,3 @@
+For a moment, I didn’t move. Goosebumps were forming all up and down my arms. I stared for a long time at the door, half expecting to the driver to come back out, laughing at some prank at my expense.
+
+What had he meant, that the letter was for me? No. Certainly not. I hadn’t informed anyone here that I was coming, because as far as I knew, there was no one here to inform. And the driver couldn’t have written it in advance. I’d been with him since I met him, and I’d clearly seen him take it from the door. Sleight of hand, perhaps? Or maybe the mistress of the house had left the note for someone else? 

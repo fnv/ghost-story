@@ -1,0 +1,1 @@
+The map provided was quite vague on most points — the layout of the manor, the outer gardens — but the hedge maze had been recreated in painstaking detail. And near the center, there was a square between four walls that had been marked with an X. A square you might not notice was there, exploring the gardens yourself. A secret square. 

@@ -1,0 +1,3 @@
+“Tha’ munnot let the weather vex thee. There’ll be a wind comin’ up soon,” he said.
+
+We’d struck up a conversation as I was waiting for a bus to take me to the rental car lot. He was originally from this area, but was also planning a drive of more than a day, and happened to be going in the right direction. I was astonished that he’d heard of Misselthwaite Manor, much less that he knew the way and was willing to drop me there. 

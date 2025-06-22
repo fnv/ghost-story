@@ -1,0 +1,3 @@
+The thought made me dizzy. I should have stopped to eat during the drive. I was having trouble remembering to eat, these days. Looking around, I found that there was a stone bench on either side of the path. I took a seat, with relief, but found thoughts that had been pushed away by action bubbling up to the surface. When the last time that I'd enjoyed a meal had been. Not so long ago, but also a lifetime away. Too many thoughts were coming now, too quickly. More that I could bear to face.
+
+I breathed deep, feeling a brush of wind across my face. I'd been reminded of my grandmother. A difficult memory, but relatively, not so bad. Relatively, heh. She would have made that into a joke. I found myself calming down, and remembered. 

@@ -1,0 +1,3 @@
+She took our hands and welcomed us to dinner. I don’t remember much of the meal, only the relief that she wasn’t a witch and the excitement that she wanted to hear all about our favorite things. I don’t know what stories we told her, but we saw a lot of that smile.
+
+At the end of the meal, Mom brought us back up to her chair. This time she started out smiling, but grew more serious. “Girls, I mean to tell you something. Listen here. It’s something I told my daughter, and my granddaughters. Find a place that’s all your own. A place that no one else—not your mother, not your sister— that no one else but you can have. Whether it’s a house, or a bit of earth, or somewhere in your mind, find that place and never forget the path to reach it.” 

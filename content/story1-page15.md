@@ -1,0 +1,3 @@
+I thought about climbing over the gate, but the slippery metal and pointed tops of the rails dissuaded me. It looked like it might have been installed more recently than some other parts of the garden, as the metalwork looked cheaper and less ornate. Regardless, there was one more direction to check.
+
+The third path led to an ivy-covered archway, the ivy now waving a bit in the breeze. At first I wasn't sure whether I had turned back to where I had started, but peering through the archway I could see I'd found another garden, and a way forward. 

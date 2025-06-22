@@ -1,9 +1,3 @@
-# The Path
+Was I intruding? Would anyone come to demand an explanation? I realized the fog might be a blessing. I could do what I needed to do and leave, with no more trace than a ghost might leave.
 
-No path but the one I'm making, I suppose. I stepped over some low shrubbery, mud be damned. If I went around the manor, I might find the path to the gardens. To the garden. No turning back now.
-
-I stumbled through the fog, keeping the manor to my right. Each window I passed was shuttered. A smaller door, perhaps a servant's entrance, was spotted with rust.
-
-As I came to the corner of the manor, I felt the barest hint of a breeze. Even through the thick fog, I could feel the grounds opening up before me. Indeed, the ground sloped gently downward away from the house. Taking care to not slip on the grass, I descended. Just as the manor faded into fog behind me, I found myself stepping onto a small path of stones.
-
-Not lost at all. You can do this, Rose. Do this, and you can rest. 
+I stepped from the gravel of the drive to the smooth stone of a walkway. Seven, eight paces and I stopped short. My last step had abruptly moved me from an indefinite expanse of fog to a starkly divided world: the empty world behind me and the confining facade of the manor before me. 

@@ -1,0 +1,1 @@
+I'd arrived at a small bridge over the stream, and stood in front of it for a moment. My stomach churned. It had been a long drive, and a long time without any food. But I shouldn't confuse the hunger for uncertainty. I had to finish what I came here to do. I crossed the bridge without looking back. 

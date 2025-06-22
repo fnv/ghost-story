@@ -1,0 +1,3 @@
+Wasn't there a footpath from the front door around to the garden? Of course, why should I assume that the drawing had been that accurate, drawn from childhood memories at such a remove of miles and years. Or that the landscaping had never been changed or updated?
+
+I looked up to an empty balcony on the second story of the manor. Completely still, worn by years of wind and rain. It was difficult to imagine that any changes had taken place here for a hundred years or more. 
