@@ -1,0 +1,3 @@
+The robin continued chirping, though he was nowhere to be seen. A few steps past the archway I heard the fluttering of wings, and then silence settled over the garden again.
+
+It was eerie to travel through a garden shrouded in fog. The careful design of the landscape was shrouded, obscuring the intentions of the gardener. But while the house had felt stiff and a bit menacing, the garden was simply melancholy. 

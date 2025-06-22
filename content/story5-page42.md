@@ -1,0 +1,3 @@
+A message about being true to yourself. Or a kooky way of encouraging her descendants to seek out some financial independence. But was that all she'd meant?
+
+I had a house now, in my name, though it was far away from here. But it wasn't truly my own, not anymore. I couldn't imagine being there and trying to go on with my life without being constantly, in innumerably small ways, pulled back into the past. 

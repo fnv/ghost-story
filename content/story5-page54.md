@@ -1,0 +1,1 @@
+Now here I was, using the hand drawn map to navigate a garden maze. So many years had passed since Mary had been here, but in this task her memory had not failed her. I turned right, then left and left again, then took the central passage. It was only a matter of minutes before I'd come to the heart of the matter itself. 

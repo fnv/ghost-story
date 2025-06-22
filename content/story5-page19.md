@@ -1,0 +1,3 @@
+I looked up to an empty balcony on the second story of the manor. Completely still, worn by years of wind and rain. I imagined what it must have been like, to be a little girl here, sitting on that balcony and listening to the robin's song.
+
+Then I realized he was singing again, and not just in my imagination. He was somewhere ahead of me. I smiled. Perhaps he was the "body" who was to show me the way. A foolish thought. I continued forward. 

@@ -1,0 +1,1 @@
+The thought made me dizzy. I should have stopped to eat during the drive. I was having trouble remembering to eat, these days. Looking around, I found that there was a stone bench on either side of the path. I took a seat, with relief, but found thoughts that had been pushed away by action bubbling up to the surface. When the last time that I'd enjoyed a meal had been. 

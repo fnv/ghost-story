@@ -1,0 +1,3 @@
+In the garden, the wall came to an end. I'd reached the stream. Reeds had grown up through stones and both banks, and it was clear it hadn't been cut back in some time. I turned and followed the stream deeper into the garden, looking for the bridge.
+
+That day at the castle was the only memory I had of my great-grandmother. I remembered a room with a long banquet table and stone walls and candles — a castle in my memory, even now. And at the far end of the table, tiny and stooped, was a white haired woman who looked just like my mom, or my grandmother, but with her eyes so scrunched up she seemed asleep. 

@@ -1,0 +1,3 @@
+But she didn't grab me. She smiled, and it was the same smile my grandmother gave when she asked if we wanted to bake cookies with her after dinner.
+
+She took our hands and welcomed us to dinner. I don't remember much of the meal, only the relief that she wasn't a witch and the excitement that she wanted to hear all about our favorite things. I don't know what stories we told her, but we saw a lot of that smile. 

@@ -1,0 +1,1 @@
+I rested my head against the wall, feeling heat under the boards. The sounds of the city were muted, as they always were that winter, by the fact that hardly anyone was outside. The latest wave of sickness was looking worse than any time since the previous spring. I'd known this task would be difficult. I'd known that I couldn't expect my sister or my mother to travel so far. 

@@ -1,0 +1,3 @@
+Then I realized he was singing again, and not just in my imagination. He was somewhere ahead of me. I smiled. Perhaps he was the "body" who was to show me the way. A foolish thought. I continued forward.
+
+The path eventually started to descend, and I left the house on the hill behind me. I felt the barest hint of a breeze. Even through the thick fog, I could feel the grounds opening up before me. The stones beneath my feet were steady and sure. 

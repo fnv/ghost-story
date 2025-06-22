@@ -1,0 +1,3 @@
+Besides, the driver had said he'd had somewhere to be, and I wouldn't want to keep him waiting. So I tucked the card and envelope into my pocket, and turned away from the door.
+
+But where had the robin's singing come from? The song sparked a memory. I was sitting with Grandma Robin on the porch swing, hearing her singing to the robins in the trees. She always said they didn't know the right songs, these American robins. 

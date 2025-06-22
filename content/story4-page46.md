@@ -1,0 +1,3 @@
+“Well, let me explain…” I stammered. “Who… I am? My name is Rose, I’m… a distant relative of yours? My great-grandmother Mary was a cousin of your…” I trailed off. Guessing someone’s age is hard enough when you weren’t technically trespassing on their property. “Grandfather? Also a Colin?”
+
+Mr. Craven had extended his hands in a calming gesture. “Rose. A pleasure to meet you. You know, Mary’s mother was also a Rose. How lovely that your mother chose that name.” 

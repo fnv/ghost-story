@@ -1,0 +1,1 @@
+The door shut and I was left in the cold, damp fog, clutching a small envelope. The driver hadn't mentioned anything about knowing anyone who lived here. Worked here? I was half tempted to go inside, but first I looked inside the envelope. I found a small piece of card, with a scrawled note. 

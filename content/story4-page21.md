@@ -1,0 +1,3 @@
+I breathed deep, feeling a brush of wind across my face. I'd been reminded of my grandmother. A difficult memory, but relatively, not so bad. Relatively, heh. She would have made that into a joke. I found myself calming down, and remembered.
+
+There had been so many boxes. My grandmother had kept her house clean and organized, every item in its perfect place, so I had been surprised to find them. She'd called it the spare spare room, and come to think of it, she'd never had enough company that she would have had to use it. That day, I'd found it floor to ceiling with boxes. 

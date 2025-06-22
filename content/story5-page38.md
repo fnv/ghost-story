@@ -1,0 +1,1 @@
+I don't remember approaching her. I just remember standing shoulder to shoulder with Lily, trembling, as the ancient woman studied us. Her eyes were sunken, her makeup ghoulish. I felt like she was about to reach out and grab me with a witch's claw and if she did that, I wouldn't be able to stop myself from running away as fast as I could. 

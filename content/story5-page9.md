@@ -1,0 +1,1 @@
+"Th' letter's for thee, lass. I know tha' well enow that nowt would stop thee from goin' straight on to th' garden. But I mun go inside an' greet the mistress o' th' house." He threw open the door, and there was a sudden burst of warmth and light from inside, as well as a heady smell of roasted potatoes and rosemary. "Martha, you cheeky beggar!" he called as he bounded inside. 

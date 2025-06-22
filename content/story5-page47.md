@@ -1,0 +1,3 @@
+Then I heard it. With the shifting wind came a soft moaning. It was a hollow sound, rising and falling with the breeze, a sound made from the wind rushing through the hedges and trees and bushes.
+
+My driver had told me to expect that. He'd called it wuthering. Wutherin'. Told me not to be afraid. I think I'd laughed a bit then, not anticipating then how creepy the gardens would feel once I was among them. 

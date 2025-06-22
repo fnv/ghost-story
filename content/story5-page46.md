@@ -1,0 +1,3 @@
+I crossed the bridge without looking back.
+
+There was no archway over the exit to the rose garden. But the wind had picked up several notches in strength. Now the fog was constantly shifting all around me. Occasionally the cloud would open up and I'd get a greater glimpse of the gardens — far hedges, or even trees beyond them. But only for a moment before I was stranded once more in the heavy fog. 

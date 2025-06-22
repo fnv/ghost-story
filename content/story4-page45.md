@@ -1,0 +1,3 @@
+“So sorry, ma’am.” I must have been staring quite hard, as he met my eyes, and then looked away. “Indeed, where have I misplaced my manners. Allow me to introduce myself. My name is Colin Craven, and I am the master of this estate.”
+
+Shit. I’d assumed that Mary’s family had long since abandoned this place, but this man was living proof that I’d made a mistake in my research. I guess there’s only so much you can expect to dig up on a single transatlantic flight. 

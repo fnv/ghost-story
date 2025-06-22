@@ -1,0 +1,3 @@
+With a flutter and a chirp, the robin shot off into the fog. I almost wanted to follow him, instead of seeing to my task. A robin is not much company, that's true, but for a brief moment I had not been alone. But I had to press on. There was no turning back now.
+
+I stepped onto the path to the garden. It curved a bit, and as it did the manor loomed in and out of view. I looked up to an empty balcony on the second story of the manor. Completely still, worn by years of wind and rain. I imagined what it must have been like, to be a little girl here, sitting on that balcony and listening to the robin's song. 

@@ -1,0 +1,1 @@
+At the end of the meal, Mom brought us back up to her chair. This time she started out smiling, but grew more serious. "Girls, I mean to tell you something. Listen here. It's something I told my daughter, and my granddaughters. Find a place that's all your own. A place that no one else—not your mother, not your sister— that no one else but you can have." 

@@ -1,0 +1,1 @@
+I stooped, reaching below the heather line to feel the soil. I scooped some up into my hands. Even the dirt itself smelled fresh and alive. I rubbed it between my fingers, careful to not squish an earthworm that had come up with it. It felt so good, I almost wanted to wriggle around in it myself. 

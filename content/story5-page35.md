@@ -1,0 +1,1 @@
+I'd grown, and discovered that there was far more leg that I expected showing between my socks and my skirt. We'd driven to the castle, or what had seemed to us to be a castle. I suppose it had been a country club, or a rich person's home. Mom had rang the doorbell, and we'd heard an actual bell ringing behind the large wooden door. 

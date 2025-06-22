@@ -1,0 +1,3 @@
+I didn't know what to say to that. The observation hit too close to home. But I noticed that Mr. Craven was looking past me, at the tall hedge wall behind me. I glanced over my shoulder, and looked back at him.
+
+"I should also, I guess," I continued, "tell you what I'm doing here! In your gardens! Uh, someone called Dickon, who says he knows your family, drove me here, I hope I'm not bothering. I mean, it's just that I was hoping to be through with it quickly, but now I can't..." 

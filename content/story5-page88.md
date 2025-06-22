@@ -1,0 +1,3 @@
+Mary immediately went on the defensive. I could see that she'd made a fist out of one of her little hands. She glanced up at me, and I couldn't help but nod. We were guests, and it would be polite to listen to the crotchety old woman.
+
+She went around the table to stand next to the old woman's chair. "Thank you, love," Mary said to her namesake. Then she bent over and whispered something into her ear. 

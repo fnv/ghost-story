@@ -1,0 +1,3 @@
+"Eh? Nowt o' th' sort. Tha' mun wait an' see."
+
+We stepped from the gravel of the drive to the smooth stone of a walkway. Something in my driver's demeanor changed. If anything, he seemed younger as he increased his pace. After a few steps, he was practically skipping. All of a sudden the manor leapt into view in front of us, creating a starkly divided world: the empty world behind me and the confining facade of the manor before me. 

@@ -1,0 +1,1 @@
+That day at the castle was the only memory I had of my great-grandmother. I remembered a room with a long banquet table and stone walls and candles — a castle in my memory, even now. And at the far end of the table, tiny and stooped, was a white haired woman who looked just like my mom, or my grandmother, but with her eyes so scrunched up she seemed asleep. 

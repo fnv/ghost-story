@@ -1,0 +1,3 @@
+It had been such a bizarre request, to bring her ashes back to England. My grandmother had never mentioned it, but that didn't mean she'd never intended to carry it out. Finding time to make that trip would have been difficult for her.
+
+And it wasn't like I'd planned to follow through on it with any urgency. It wasn't until I needed a reason, any reason at all to escape, that the idea crossed my mind. I'd taken the box out of storage, grabbed the ashes and the map, and fled. 

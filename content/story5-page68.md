@@ -1,0 +1,1 @@
+And it was all in bloom. The roses on the walls, and what had to be snowdrops and crocuses and daffodils trying to burst their way up through the heather. More purple, yellow, brilliant white, some reds and pinks. This garden was somehow warm, and full, and alive. 

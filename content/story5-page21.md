@@ -1,0 +1,1 @@
+The stone pathway led me to part of the grounds that could only be the manor's gardens. Two waist-high hedges extended away in either direction, and the stone pathway split to lead around the outside of the garden in either direction. But directly in front of me, the hedges parted and formed an archway covered in ivy. I brushed a dangling strand aside and entered the gardens. 

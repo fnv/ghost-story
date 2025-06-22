@@ -1,0 +1,1 @@
+The note on the door had said I should take the stone bridge out of the rose garden, and here I was. Though I couldn't see anything that looked like a bridge. The fog was stirring around me in small eddies, but still made it hard to see more than a few feet away. I closed my eyes instead. I could hear the sound of water trickling off to my right. 

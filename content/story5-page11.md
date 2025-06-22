@@ -1,0 +1,3 @@
+*Tha'll find the path through the gardens marred, but to set thysen right: turn left at the fountain, and take the stone bridge out of the rose garden. Or come inside, and a body will show you the way.*
+
+For a moment, I didn't move. Goosebumps were forming all up and down my arms. I stared for a long time at the door, half expecting to the driver to come back out, laughing at some prank at my expense. 

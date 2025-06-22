@@ -1,0 +1,1 @@
+I mixed the dirt back in with the ashes and the other items and covered both spots with heather. The secret garden was so… serene. I still just wanted to lie down and roll around in it. I put my back to the tree, and stretched out my arms. The sun above me warmed my face. 

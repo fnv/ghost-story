@@ -1,0 +1,3 @@
+There was rich, rich soil between the roots of the tree. Despite all the preparation I had done, I had nothing to dig with but my hands. But I wouldn't have wanted it any other way.
+
+I started to make one hole, then another. Two bits of earth, turned over to make room for new tenants. As I dug, I carefully placed aside anything I found that wasn't soil — a small bird skull, a set of military dog tags. 

@@ -1,0 +1,3 @@
+It had been here for over a century, surely. And it was alive. Gloriously, beautifully alive. I could almost feel its age stretching back in time beneath my hand, back to when the tree was just a sapling.
+
+I stooped, reaching below the heather line to feel the soil. I scooped some up into my hands. Even the dirt itself smelled fresh and alive. I rubbed it between my fingers, careful to not squish an earthworm that had come up with it. It felt so good, I almost wanted to wriggle around in it myself. 

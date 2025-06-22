@@ -1,0 +1,1 @@
+*To my heirs, my lovely flower girls. I have been so lucky to live a long life, travel the world, and see your wonderful families blossom. But my mind has been on the past, of late. When I left England, I left a whole life behind me. So many friends I said goodbye to without realizing it would be the last time I saw them.*

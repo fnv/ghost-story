@@ -1,0 +1,3 @@
+I reached into my jacket and pulled out the plastic bags. Two Ziplocs, full of ash. The tears had been flowing for some time, but they felt like tears of joy. I opened one and poured it into a hole. Mary. Then with the second bag. Mary. The empty bags went back in my jacket.
+
+I mixed the dirt back in with the ashes and the other items and covered both spots with heather. The secret garden was so… serene. I still just wanted to lie down and roll around in it. I put my back to the tree, and stretched out my arms. The sun above me warmed my face. 

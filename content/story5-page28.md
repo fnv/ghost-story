@@ -1,0 +1,1 @@
+I remembered having to sit down, then as now. It had all been too much. I thought I'd understood the scope of the project at hand, going through my late grandmother's possessions. But this unexpected and absolutely out-of-character room meant hours, or, honestly, days of additional work. Time I'd be away from my family, time I'd be alone with a dead woman's things. 

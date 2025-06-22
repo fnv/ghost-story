@@ -1,0 +1,1 @@
+I'd arrived at a small bridge over the stream, and stood in front of it for a moment. My stomach churned. It had been a long drive, and a long time without any food. I should have gone in for some potatoes. I realized that now. But I had to be close now. Maybe I could go back inside after I did what I came here to do. 
