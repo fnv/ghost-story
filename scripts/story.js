@@ -13,18 +13,23 @@ const stories = [
     [
         {
             id: generateGuid(),
-            title: "The House",
+            title: "The Arrival",
             contentFile: "content/story0-page1.md"
         },
         {
             id: generateGuid(),
-            title: "The Door",
+            title: "The Manor",
             contentFile: "content/story0-page2.md"
         },
         {
             id: generateGuid(),
-            title: "The Choice",
+            title: "The Path",
             contentFile: "content/story0-page3.md"
+        },
+        {
+            id: generateGuid(),
+            title: "The Garden",
+            contentFile: "content/story0-page4.md"
         }
     ],
     
@@ -157,8 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Content cache
     const contentCache = new Map();
-    let preloadedNextContent = null;
-    let preloadedPrevContent = null;
+    let allContentLoaded = false;
 
     // Get current story
     function getCurrentStory() {
@@ -189,71 +193,35 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Preload the next page's content
-    async function preloadNextPage() {
-        const currentStory = getCurrentStory();
+    // Preload all content
+    async function preloadAllContent() {
+        console.log('Preloading all story content...');
         
-        // Determine what the next page will be
-        let nextStoryIndex = currentStoryIndex;
-        let nextPageIndex = currentPageIndex + 1;
+        const loadPromises = [];
         
-        if (nextPageIndex >= currentStory.length) {
-            // End of current story - branch to next story
-            const branch = storyBranches[currentStoryIndex];
-            if (branch) {
-                nextStoryIndex = branch.storyIndex;
-                nextPageIndex = branch.pageIndex;
-            } else {
-                // No next page (end of final story)
-                preloadedNextContent = null;
-                return;
+        // Create promises for loading all content files
+        for (let storyIndex = 0; storyIndex < stories.length; storyIndex++) {
+            for (let pageIndex = 0; pageIndex < stories[storyIndex].length; pageIndex++) {
+                const page = stories[storyIndex][pageIndex];
+                if (page.contentFile) {
+                    loadPromises.push(loadMarkdownContent(page.contentFile));
+                }
             }
         }
         
-        // Get the next page's content file
-        const nextPage = stories[nextStoryIndex][nextPageIndex];
-        if (nextPage && nextPage.contentFile) {
-            try {
-                preloadedNextContent = await loadMarkdownContent(nextPage.contentFile);
-            } catch (error) {
-                console.error('Error preloading next content:', error);
-                preloadedNextContent = null;
-            }
-        }
-    }
-
-    // Preload the previous page's content
-    async function preloadPreviousPage() {
-        // Determine what the previous page will be
-        let prevStoryIndex = currentStoryIndex;
-        let prevPageIndex = currentPageIndex - 1;
-        
-        if (prevPageIndex < 0) {
-            // Beginning of current story - go to last page of previous story
-            if (currentStoryIndex > 0) {
-                prevStoryIndex = currentStoryIndex - 1;
-                prevPageIndex = stories[prevStoryIndex].length - 1;
-            } else {
-                // No previous page (first page of first story)
-                preloadedPrevContent = null;
-                return;
-            }
-        }
-        
-        // Get the previous page's content file
-        const prevPage = stories[prevStoryIndex][prevPageIndex];
-        if (prevPage && prevPage.contentFile) {
-            try {
-                preloadedPrevContent = await loadMarkdownContent(prevPage.contentFile);
-            } catch (error) {
-                console.error('Error preloading previous content:', error);
-                preloadedPrevContent = null;
-            }
+        try {
+            // Wait for all content to load
+            await Promise.all(loadPromises);
+            allContentLoaded = true;
+            console.log('All content preloaded successfully!');
+        } catch (error) {
+            console.error('Error preloading content:', error);
+            // Continue anyway - individual pages will load as needed
         }
     }
 
     // Initialize the story
-    function initStory() {
+    async function initStory() {
         // Load saved story and page from localStorage if available
         const savedStory = localStorage.getItem('currentStoryIndex');
         const savedPage = localStorage.getItem('currentPageIndex');
@@ -280,20 +248,19 @@ document.addEventListener('DOMContentLoaded', () => {
         // Initialize theme
         updateTheme();
         
+        // Preload all content first, then show the current page
+        await preloadAllContent();
         updatePage();
         updateNavigation();
     }
 
     // Update the current page content
-    async function updatePage() {
+    function updatePage() {
         const currentStory = getCurrentStory();
         const page = currentStory[currentPageIndex];
         
-        // Show loading state
-        storyContent.innerHTML = `<div class="page active" data-page="${page.id}"><p>Loading...</p></div>`;
-        
-        // Load and render markdown content
-        const htmlContent = await loadMarkdownContent(page.contentFile);
+        // Get content from cache (should be preloaded)
+        const htmlContent = contentCache.get(page.contentFile) || `<p>Loading...</p>`;
         storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${htmlContent}</div>`;
         
         // Show only current story page count
@@ -308,10 +275,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Update background color when story changes
         updateBackgroundColor();
-        
-        // Preload both next and previous pages in the background
-        preloadNextPage();
-        preloadPreviousPage();
     }
 
     // Update navigation buttons state
@@ -329,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Navigate to next page or story
-    async function goToNext() {
+    function goToNext() {
         const currentStory = getCurrentStory();
         
         if (currentPageIndex < currentStory.length - 1) {
@@ -344,59 +307,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         
-        // Use preloaded content if available
-        if (preloadedNextContent) {
-            const page = getCurrentStory()[currentPageIndex];
-            storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${preloadedNextContent}</div>`;
-            
-            // Update page info
-            pageIndicator.textContent = `Page ${currentPageIndex + 1} of ${getCurrentStory().length}`;
-            window.location.hash = page.id;
-            localStorage.setItem('currentStoryIndex', currentStoryIndex);
-            localStorage.setItem('currentPageIndex', currentPageIndex);
-            updateBackgroundColor();
-            
-            // Clear preloaded content and preload the next pages
-            preloadedNextContent = null;
-            preloadedPrevContent = null;
-            preloadNextPage();
-            preloadPreviousPage();
-        } else {
-            // Fallback to normal loading if preloaded content isn't available
-            await updatePage();
-        }
-        
+        updatePage();
         updateNavigation();
     }
 
     // Navigate to previous page (but not previous story)
-    async function goToPrevious() {
+    function goToPrevious() {
         if (currentPageIndex > 0) {
             // Go to previous page in current story only
             currentPageIndex--;
-            
-            // Use preloaded content if available
-            if (preloadedPrevContent) {
-                const page = getCurrentStory()[currentPageIndex];
-                storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${preloadedPrevContent}</div>`;
-                
-                // Update page info
-                pageIndicator.textContent = `Page ${currentPageIndex + 1} of ${getCurrentStory().length}`;
-                window.location.hash = page.id;
-                localStorage.setItem('currentStoryIndex', currentStoryIndex);
-                localStorage.setItem('currentPageIndex', currentPageIndex);
-                updateBackgroundColor();
-                
-                // Clear preloaded content and preload the next pages
-                preloadedNextContent = null;
-                preloadedPrevContent = null;
-                preloadNextPage();
-                preloadPreviousPage();
-            } else {
-                // Fallback to normal loading if preloaded content isn't available
-                await updatePage();
-            }
-            
+            updatePage();
             updateNavigation();
         }
         // Cannot go to previous story - that path is blocked
@@ -481,7 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Handle URL hash changes
-    window.addEventListener('hashchange', async () => {
+    window.addEventListener('hashchange', () => {
         const hash = window.location.hash;
         if (hash) {
             const pageId = hash.substring(1); // Remove the # symbol
@@ -492,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (storyIndex !== currentStoryIndex || pageIndex !== currentPageIndex) {
                         currentStoryIndex = storyIndex;
                         currentPageIndex = pageIndex;
-                        await updatePage();
+                        updatePage();
                         updateNavigation();
                     }
                     break;

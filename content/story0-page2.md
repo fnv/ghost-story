@@ -1,9 +1,9 @@
-# The Door
+# The Manor
 
-The front door is unlocked, which surprises you. As you step inside, the air feels thick with anticipation. Something is waiting for you here.
+I stepped from the gravel of the drive to the smooth stone of a walkway. Seven, eight paces and I stopped short. My last step had abruptly moved me from an indefinite expanse of fog to a starkly divided world: the empty world behind me and the confining facade of the manor before me. No longer lurking, it loomed. Looking up and to the sides, as far as the fog would let me see, the stones and shutters of the manor waited.
 
-The foyer stretches before you, its high ceilings lost in shadow. Dust motes dance in the pale light filtering through the stained glass windows, and the floorboards creak beneath your feet like the house itself is breathing.
+The front door was just ahead of me, but why bother going inside? There was no one left here. No one but me, and I won't linger.
 
-To your left, you hear the soft strains of music drifting from what might be a library. To your right, a grand staircase leads upward into darkness. Straight ahead, a corridor disappears into the depths of the house.
+Won't linger intentionally, I suppose. I withdrew a scrap of paper from my pocket. A crude map with tiny handwritten labels. Wasn't there a footpath from the front door around to the garden? Of course, why should I assume that the drawing had been that accurate, drawn from childhood memories at such a remove of miles and years. Or that the landscaping had never been changed or updated?
 
-Each path seems to whisper its own invitation, but which will you choose? 
+I looked up to an empty balcony on the second story of the manor. Completely still, worn by years of wind and rain. It was difficult to imagine that any changes had taken place here for a hundred years or more. 

@@ -1,11 +1,9 @@
-# The Choice
+# The Path
 
-You find yourself in a grand foyer, its walls lined with portraits whose eyes seem to follow your every move. The air is heavy with the scent of old wood and something else—something you can't quite identify.
+No path but the one I'm making, I suppose. I stepped over some low shrubbery, mud be damned. If I went around the manor, I might find the path to the gardens. To the garden. No turning back now.
 
-To your left, you hear soft music coming from what might be a library. The melody is haunting and familiar, though you're certain you've never heard it before.
+I stumbled through the fog, keeping the manor to my right. Each window I passed was shuttered. A smaller door, perhaps a servant's entrance, was spotted with rust.
 
-To your right, there's a staircase leading up to darkness. The steps seem to go on forever, disappearing into shadows that move and shift like living things.
+As I came to the corner of the manor, I felt the barest hint of a breeze. Even through the thick fog, I could feel the grounds opening up before me. Indeed, the ground sloped gently downward away from the house. Taking care to not slip on the grass, I descended. Just as the manor faded into fog behind me, I found myself stepping onto a small path of stones.
 
-Straight ahead, a corridor leads deeper into the house. The walls seem to pulse with a strange energy, and you can almost see the air shimmering with possibility.
-
-Each path calls to you in its own way. The choice is yours, but remember—once you choose, there's no turning back. 
+Not lost at all. You can do this, Rose. Do this, and you can rest. 
