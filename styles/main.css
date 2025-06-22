@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 /* Story container */
@@ -67,6 +67,65 @@ body {
 .page.active {
     opacity: 1;
     transform: translateX(0);
+}
+
+/* Markdown content styles */
+.page h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.page h2 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem 0;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.page h3 {
+    font-size: 1.25rem;
+    margin: 1.25rem 0 0.75rem 0;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.page p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.page strong {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.page em {
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.page blockquote {
+    border-left: 4px solid var(--button-bg);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.page ul, .page ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.page li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
 
 /* Navigation */
@@ -139,6 +198,14 @@ button:disabled {
         width: 95%;
         padding: 1rem;
         margin: 1rem auto;
+    }
+    
+    .page h1 {
+        font-size: 1.5rem;
+    }
+    
+    .page h2 {
+        font-size: 1.25rem;
     }
     
     button {
