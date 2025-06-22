@@ -1,3 +1,3 @@
-I frowned at the weather status bar. Yes, forty degrees and heavy fog with no sign of a reprieve. If there'd been any wind at all, I might have made a nice day of it. Nice, sure. How could I think that? Even a perfect spring day wouldn't have made today "nice".
+I frowned at the weather status bar. Yes, forty degrees and heavy fog with no sign of a reprieve. If there'd been any wind to blow the fog away, there might have been some nice sun. Nice, sure. How could I think that? Even a perfect spring day wouldn't have made today "nice".
 
 Enough of that. The silence was getting to me. I stashed my phone and other necessities in my jacket pockets and disembarked. But the subsequent slam of the car door, and the crunch of each footstep on gravel was even more oppressive than the stillness had been. 
