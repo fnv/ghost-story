@@ -1,3 +1,3 @@
-What was wrong with me? What the fuck was wrong with with me?
+What was wrong with me? What the fuck was wrong with me?
 
-I was still crying, but my feelings turned bitter. I couldn't bear to look back. I knew that despite what I'd just felt, what I just thought I'd been through, that if turned back to the secret garden I'd find it as bleak and dreary as the rest of the grounds. I was exhausted. Starving. Chilled to the bone. And apparently, finally losing it. 
+I was still crying, but my feelings turned bitter. I couldn't bear to look back. I knew that despite what I'd just felt, what I just thought I'd been through, that if I turned back to the secret garden I'd find it as bleak and dreary as the rest of the grounds. I was exhausted. Starving. Chilled to the bone. And apparently, finally losing it. 
