@@ -157,6 +157,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Content cache
     const contentCache = new Map();
+    let preloadedNextContent = null;
+    let preloadedPrevContent = null;
 
     // Get current story
     function getCurrentStory() {
@@ -184,6 +186,69 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Error loading markdown content:', error);
             return `<h1>Error Loading Content</h1><p>Unable to load the story content. Please try refreshing the page.</p>`;
+        }
+    }
+
+    // Preload the next page's content
+    async function preloadNextPage() {
+        const currentStory = getCurrentStory();
+        
+        // Determine what the next page will be
+        let nextStoryIndex = currentStoryIndex;
+        let nextPageIndex = currentPageIndex + 1;
+        
+        if (nextPageIndex >= currentStory.length) {
+            // End of current story - branch to next story
+            const branch = storyBranches[currentStoryIndex];
+            if (branch) {
+                nextStoryIndex = branch.storyIndex;
+                nextPageIndex = branch.pageIndex;
+            } else {
+                // No next page (end of final story)
+                preloadedNextContent = null;
+                return;
+            }
+        }
+        
+        // Get the next page's content file
+        const nextPage = stories[nextStoryIndex][nextPageIndex];
+        if (nextPage && nextPage.contentFile) {
+            try {
+                preloadedNextContent = await loadMarkdownContent(nextPage.contentFile);
+            } catch (error) {
+                console.error('Error preloading next content:', error);
+                preloadedNextContent = null;
+            }
+        }
+    }
+
+    // Preload the previous page's content
+    async function preloadPreviousPage() {
+        // Determine what the previous page will be
+        let prevStoryIndex = currentStoryIndex;
+        let prevPageIndex = currentPageIndex - 1;
+        
+        if (prevPageIndex < 0) {
+            // Beginning of current story - go to last page of previous story
+            if (currentStoryIndex > 0) {
+                prevStoryIndex = currentStoryIndex - 1;
+                prevPageIndex = stories[prevStoryIndex].length - 1;
+            } else {
+                // No previous page (first page of first story)
+                preloadedPrevContent = null;
+                return;
+            }
+        }
+        
+        // Get the previous page's content file
+        const prevPage = stories[prevStoryIndex][prevPageIndex];
+        if (prevPage && prevPage.contentFile) {
+            try {
+                preloadedPrevContent = await loadMarkdownContent(prevPage.contentFile);
+            } catch (error) {
+                console.error('Error preloading previous content:', error);
+                preloadedPrevContent = null;
+            }
         }
     }
 
@@ -243,6 +308,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Update background color when story changes
         updateBackgroundColor();
+        
+        // Preload both next and previous pages in the background
+        preloadNextPage();
+        preloadPreviousPage();
     }
 
     // Update navigation buttons state
@@ -275,7 +344,28 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         
-        await updatePage();
+        // Use preloaded content if available
+        if (preloadedNextContent) {
+            const page = getCurrentStory()[currentPageIndex];
+            storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${preloadedNextContent}</div>`;
+            
+            // Update page info
+            pageIndicator.textContent = `Page ${currentPageIndex + 1} of ${getCurrentStory().length}`;
+            window.location.hash = page.id;
+            localStorage.setItem('currentStoryIndex', currentStoryIndex);
+            localStorage.setItem('currentPageIndex', currentPageIndex);
+            updateBackgroundColor();
+            
+            // Clear preloaded content and preload the next pages
+            preloadedNextContent = null;
+            preloadedPrevContent = null;
+            preloadNextPage();
+            preloadPreviousPage();
+        } else {
+            // Fallback to normal loading if preloaded content isn't available
+            await updatePage();
+        }
+        
         updateNavigation();
     }
 
@@ -284,7 +374,29 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentPageIndex > 0) {
             // Go to previous page in current story only
             currentPageIndex--;
-            await updatePage();
+            
+            // Use preloaded content if available
+            if (preloadedPrevContent) {
+                const page = getCurrentStory()[currentPageIndex];
+                storyContent.innerHTML = `<div class="page active" data-page="${page.id}">${preloadedPrevContent}</div>`;
+                
+                // Update page info
+                pageIndicator.textContent = `Page ${currentPageIndex + 1} of ${getCurrentStory().length}`;
+                window.location.hash = page.id;
+                localStorage.setItem('currentStoryIndex', currentStoryIndex);
+                localStorage.setItem('currentPageIndex', currentPageIndex);
+                updateBackgroundColor();
+                
+                // Clear preloaded content and preload the next pages
+                preloadedNextContent = null;
+                preloadedPrevContent = null;
+                preloadNextPage();
+                preloadPreviousPage();
+            } else {
+                // Fallback to normal loading if preloaded content isn't available
+                await updatePage();
+            }
+            
             updateNavigation();
         }
         // Cannot go to previous story - that path is blocked
